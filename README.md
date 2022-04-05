@@ -12,7 +12,7 @@ The API computational logic for the input is as follows :
 -	List of commodities, each with their final price, tax amount with the applicable rate
 -	Total amount payable
 -	Additionally, a 5% discount is applied by the store if the bill exceeds 2000INR. 
-The bill is sorted in the ascending order of the commodity names.
+-	The bill is sorted in the ascending order of the commodity names.
 
 In order to run the API go to https://reqbin.com/curl and run the following test case with respect to API deployed on heroku - 
 
