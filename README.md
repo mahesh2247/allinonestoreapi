@@ -48,6 +48,6 @@ curl --location --request POST 'https://allinonestoreapi.herokuapp.com/processjs
 On the right side of the screen check HTML output from the HTML tab.
 
 
-This API can also be run on Postman. Clone the entire repository and run from localhost. Open postman select body>raw>JSON and provide the input in JSON format and run from Postman.
+This API can also be run on Postman Locally. Clone the entire repository and run from localhost. Open postman select body>raw>JSON and provide the input in JSON format and run from Postman using POST request.
 
 
