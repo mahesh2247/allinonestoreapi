@@ -25,7 +25,7 @@
         <th colspan="2">Item/Description</th>
         <th colspan="2">Price/Unit</th>
         <th colspan="2">Quantity</th>
-        <th colspan="2">Tax</th>
+        <th colspan="2">Tax(%)</th>
         <th colspan="2">Total</th>
     </tr>
     {% for i in range(data|length) %}
@@ -37,6 +37,14 @@
         <td colspan="2">{% print data[i]['total_price'] %}</td>
     </tr>
     {% endfor %}
+        <tr>
+        <th colspan="8.5" align="left">Gross total</th>
+        <th align="right">{{ data3 }}</th>
+    </tr>
+    <tr>
+        <th colspan="8.5" align="left">Total tax(%)</th>
+        <th align="right">{{ content3 }}</th>
+    </tr>
     <tr>
         <th colspan="8.5" align="left">Total amount payable</th>
         <th align="right">{{ data2 }}</th>
