@@ -1,6 +1,6 @@
 # allinonestoreapi
 
-AllinOneStoreAPI is an API developed to calculate total payable price of input of items in JSON format deployed on the heroku cloud.
+AllinOneStoreAPI is an API developed to calculate total payable price of input of grocery items in JSON format simulating a store counter machine which is deployed on the heroku cloud.
 The API computational logic for the input is as follows :
 -	5% on medicines and Food
 -	5% on clothes below 1000 INR and 12% above 1000INR purchase
