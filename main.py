@@ -63,7 +63,8 @@ def processjson():
         product = {}
     print('Grand total before  = {}'.format(grand_total))
     if grand_total > 2000:
-        grand_total = grand_total - (0.05 * grand_total)
+        grand_total = (grand_total - (0.05 * grand_total))
+        grand_total = str(round(grand_total, 2))
 
     print('GRAND_TOTAL = {}'.format(grand_total))
     print(my_data)
