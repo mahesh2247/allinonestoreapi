@@ -17,6 +17,7 @@ The API computational logic for the input is as follows :
 In order to run the API remotely, go to https://reqbin.com/curl and run the following test case with respect to API deployed on heroku - 
 
 Example of JSON data being passed with POST request to the API- 
+
 curl --location --request POST 'https://allinonestoreapi.herokuapp.com/processjson' \
 --header 'Content-Type: application/json' \
 --data-raw '[{
