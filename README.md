@@ -54,3 +54,6 @@ This API can also be run on Postman Locally. Clone the entire repository and run
 Open postman select body>raw>JSON and provide the input in JSON format and run from Postman using POST request.
 
 
+This API was created as a sample project for a sample use case as part of Interview Assessment.
+
+
