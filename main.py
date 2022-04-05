@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 from flask_restful import Api
 import datetime
+import json
 
 app = Flask(__name__)
 api = Api(app)
@@ -8,7 +9,8 @@ api = Api(app)
 
 @app.route("/processjson", methods=["POST"])
 def processjson():
-    data = request.get_json()
+    j_data = request.get_json()
+    data = sorted(j_data, key=lambda k: k['item'], reverse=False)  # sorts the obtained json input data in alphabetical order with respect to a value
     total_price = 0
     grand_total = 0
     tax = ''
